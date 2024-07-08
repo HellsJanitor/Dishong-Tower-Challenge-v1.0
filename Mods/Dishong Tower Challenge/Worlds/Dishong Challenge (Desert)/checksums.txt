@@ -1,0 +1,15 @@
+﻿biomes.png=2482060116
+checksums.txt=3714806196
+dtm.raw=46505702
+dtm_processed.raw=4055997045
+main.ttw=3718086929
+map_info.xml=3290493701
+prefabs.xml=2718180635
+radiation.png=1080288443
+spawnpoints.xml=61343219
+splat3.png=650939556
+splat3_half.png=3973341320
+splat3_processed.png=213935661
+splat4.png=1992864066
+splat4_half.png=1010408082
+splat4_processed.png=2278075465

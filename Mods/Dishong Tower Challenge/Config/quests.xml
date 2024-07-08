@@ -1,0 +1,41 @@
+<configs>
+
+	<insertBefore xpath="/quests/quest[@id='quest_whiteRiverCitizen1']">
+		<quest id="quest_DishongTowerChallenge">
+			<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+			<property name="name_key" value="challenge_StartingDishongTower"/>
+			<property name="subtitle_key" value="challenge_StartingDishongTower_subtitle"/>
+			<property name="description_key" value="challenge_StartingDishongTower_description"/>
+			<property name="icon" value="ui_game_symbol_map_city"/>
+			<property name="category_key" value="quest"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="shareable" value="false"/>
+			<property name="quest_hints" value="quest_whiteRiverCitizen1_hint1,quest_whiteRiverCitizen1_hint2"/>
+		
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="Quest_Completion_tip"/>
+
+		
+			<action type="ShowMessageWindow">
+				<property name="message" value="tutorialTipQuest01"/>
+				<property name="title" value="tutorialTipQuest01_title"/>
+				<property name="delay" value="3"/>
+			</action>
+		</quest>
+
+		<quest id="Completion">
+			<property name="name_key" value="Challenge Completion"/>
+			<property name="subtitle_key" value="Challenge Completion_subtitle"/>
+			<property name="description_key" value="Challenge Completion_description"/>
+			<property name="icon" value="ui_game_symbol_map_trader"/>
+			<property name="category" value="Congratulations!"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+
+			<action type="ShowMessageWindow" value="Quest_Completion_tip">
+				<property name="delay" value="3"/>
+			</action>
+		</quest>
+	</insertBefore>
+</configs>

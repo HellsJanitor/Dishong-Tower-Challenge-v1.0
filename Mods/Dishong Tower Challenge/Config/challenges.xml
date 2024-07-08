@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Hells_Janitor>
+	<set xpath="/challenges">
+	
+		<challenge_category name="Basics" title="Basics" icon="ui_game_symbol_challenge_category1"/>
+
+		<!-- *** CHALLENGE_REWARDS_PAGE_01 -->
+		<challenge_group category="Basics" name="Basics" title_key="challengeGroupBasics"
+		                 reward_text_key="challengeDTCQuest" reward_event="challenge_reward_500" link_challenges="true"/>
+						 
+		<challenge_group category="Basics" name="Accessories" title_key="challengeGroupAccessories"
+		                 reward_text_key="challengeGroupAccessoriesReward" reward_event="challenge_reward_1000" link_challenges="true" hidden_by="Basics"/>
+
+		<challenge_group category="Basics" name="Gyrocopter" title_key="challengeGroupGyrocopter"
+		                 reward_text_key="challengeGroupGyrocopterReward" reward_event="challenge_reward_2000" link_challenges="true" hidden_by="Basics"/>
+
+		<challenge_group category="Basics" name="Escape" title_key="challengeGroupEscape"
+		                 reward_text_key="challengeGroupEscapeReward" reward_event="challenge_group_reward_basics" link_challenges="true" hidden_by="Gyrocopter"/>
+
+		<!-- *** Basics -->
+		<challenge name="redeemChallenge" title_key="challengeRedeemChallenge" icon="ui_game_symbol_challenge_basics_tutorial_challenge" group="Basics"
+		           prerequisite_hint="challengeRedeemChallengeHint1" hint="challengeRedeemChallengeHint2"
+		           short_description_key="challengeRedeemChallengeShort" description_key="challengeRedeemChallengeDesc" redeem_always="true">
+			<objective type="ChallengeComplete" challenge="redeemChallenge" count="1" is_redeemed="true"/>
+		</challenge>
+	
+		<challenge name="killZombies" title_key="challengeKillZombies" icon="ui_game_symbol_challenge_adv_survival_kill_zombies" group="Basics"
+		           short_description_key="challengeKillZombiesShort" description_key="challengeKillZombiesDesc"
+		           reward_text_key="challenge_reward_500xp" reward_event="DTC_step_one">
+			<objective type="KillByTag" entity_tags="zombie" target_name_key="xuiZombies" count="10"/>
+		</challenge>
+
+		<challenge name="gatherResourcesGyroCopterAccessories1" title_key="challengegatherResourcesGyroCopterAccessories1" icon="ui_game_symbol_challenge_harvesting_electrical_parts" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint1"
+		           short_description_key="challengegatherResourcesGyroCopterAccessories1Short" description_key="challengegatherResourcesGyroCopterAccessories1Desc">
+			<objective type="Gather" item="resourceElectricParts" count="53" block_tag="challenge_elec_parts" track_distance="15"/>	
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopterAccessories2" title_key="challengegatherResourcesGyroCopterAccessories2" icon="ui_game_symbol_misc_crafting" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint2"
+		           short_description_key="challengegatherResourcesGyroCopterAccessories2Short" description_key="challengegatherResourcesGyroCopterAccessories2Desc">
+			<objective type="Gather" item="resourceHeadlight" count="8" block_tag="challenge_headlight" track_distance="15"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopterAccessories3" title_key="challengegatherResourcesGyroCopterAccessories3" icon="ui_game_symbol_challenge_harvesting_pipes" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint3"
+		           short_description_key="challengegatherResourcesGyroCopterAccessories3Short" description_key="challengegatherResourcesGyroCopterAccessories3Desc">
+			<objective type="Gather" item="resourceMetalPipe" count="50" block_tag="challenge_sinks" track_distance="15"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopterAccessories4" title_key="challengegatherResourcesGyroCopterAccessories4" icon="ui_game_symbol_challenge_harvesting_mechanical_parts" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint4"
+		           short_description_key="challengegatherResourcesGyroCopterAccessories4Short" description_key="challengegatherResourcesGyroCopterAccessories4Desc">
+			<objective type="Gather" item="resourceMechanicalParts" count="50" block_tag="challenge_mech_parts" track_distance="15"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopterAccessories5" title_key="challengegatherResourcesGyroCopterAccessories5" icon="ui_game_symbol_misc_crafting" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint5"
+		           short_description_key="challengegatherResourcesGyroCopterAccessories5Short" description_key="challengegatherResourcesGyroCopterAccessories5Desc">
+			<objective type="Gather" item="resourceSpring" count="4" block_tag="challenge_springs" track_distance="50"/>
+		</challenge>		
+
+		<challenge name="gatherResourcesGyroCopterChassis1" title_key="challengeGatherResourcesGyroCopterChassis1" icon="ui_game_symbol_challenge_harvesting_wrench_vending_machine" group="Accessories"
+		           prerequisite_hint="challengeGatherResourcesGyroCopterChassisHint1" hint="challengeGatherResourcesGyroCopterChassisHint1"
+		           short_description_key="challengeGatherResourcesGyroCopterChassis1Short" description_key="challengeGatherResourcesGyroCopterChassis1Desc">
+			<objective type="Gather" item="resourceForgedSteel" count="125" block_tag="challenge_steel" override_tracker_index="challenge_steel" track_distance="50"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopterChassis3" title_key="challengeGatherResourcesGyroCopterChassis3" icon="ui_game_symbol_misc_crafting" group="Accessories"
+		           prerequisite_hint="challengeGatherResourcesGyroCopterChassisHint1" hint="challengeGatherResourcesGyroCopterChassisHint3"
+		           short_description_key="challengeGatherResourcesGyroCopterChassis3Short" description_key="challengeGatherResourcesGyroCopterChassis3Desc">
+			<objective type="Gather" item="resourceDuctTape" count="40" block_tag="challenge_cloth" track_distance="15"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopterChassis4" title_key="challengeGatherResourcesGyroCopterChassis4" icon="ui_game_symbol_challenge_harvesting_leather" group="Accessories"
+		           prerequisite_hint="challengeGatherResourcesGyroCopterChassisHint1" hint="challengeGatherResourcesGyroCopterChassisHint4"
+		           short_description_key="challengeGatherResourcesGyroCopterChassis4Short" description_key="challengeGatherResourcesGyroCopterChassis4Desc">
+			<objective type="Gather" item="resourceLeather" count="25" block_tag="challenge_leather" track_distance="15"/>
+		</challenge>
+		
+		<challenge name="craftGyroCopterAccessories" title_key="challengeGyroCopterAccessories" icon="ui_game_symbol_assemble" group="Accessories"
+		           hint="challengeCraftGyroCopterAccessoriesHint1"
+		           short_description_key="challengeGyroCopterAccessoriesShort" description_key="challengeGyroCopterAccessoriesDesc">
+			<objective type="Craft" item="vehicleGyroCopterAccessories"/>
+		</challenge>
+		
+		<challenge name="craftGyroCopterChassis" title_key="challengeGyroCopterChassis" icon="ui_game_symbol_assemble" group="Accessories"
+		           hint="challengeCraftGyroCopterChassisHint1"
+		           short_description_key="challengeCraftGyroCopterChassisShort" description_key="challengeCraftGyroCopterChassisDesc">
+			<objective type="Craft" item="vehicleGyroCopterChassis"/>
+		</challenge>
+
+		<challenge name="gatherResourcesGyroCopter1" title_key="challengeGatherResourcesGyroCopter1" icon="ui_game_symbol_modded" group="Gyrocopter"
+		           prerequisite_hint="challengeGatherResourcesGyroCopterHint1" hint="challengeGatherResourcesGyroCopterHint1"
+		           short_description_key="challengeGatherResourcesGyroCopter1Short" description_key="challengeGatherResourcesGyroCopter1Desc">
+			<objective type="Gather" item="vehicleGyroCopterChassis" count="1"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopter2" title_key="challengeGatherResourcesGyroCopter2" icon="ui_game_symbol_modded" group="Gyrocopter"
+		           prerequisite_hint="challengeGatherResourcesGyroCopterHint1" hint="challengeGatherResourcesGyroCopterHint2"
+		           short_description_key="challengeGatherResourcesGyroCopter2Short" description_key="challengeGatherResourcesGyroCopter2Desc">
+			<objective type="Gather" item="vehicleGyroCopterAccessories" count="1"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopter3" title_key="challengeGatherResourcesGyroCopter3" icon="ui_game_symbol_modded" group="Gyrocopter"
+		           prerequisite_hint="challengeGatherResourcesGyroCopterHint1" hint="challengeGatherResourcesGyroCopterHint3"
+		           short_description_key="challengeGatherResourcesGyroCopter3Short" description_key="challengeGatherResourcesGyroCopter3Desc">
+			<objective type="Gather" item="vehicleWheels" count="3"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopter4" title_key="challengeGatherResourcesGyroCopter4" icon="ui_game_symbol_challenge_harvesting_wrench_cars" group="Gyrocopter"
+		           prerequisite_hint="challengeGatherResourcesGyroCopterHint1" hint="challengeGatherResourcesGyroCopterHint4"
+		           short_description_key="challengeGatherResourcesGyroCopter4Short" description_key="challengeGatherResourcesGyroCopter4Desc">
+			<objective type="Gather" item="smallEngine" count="1" block_tag="challenge_engine" track_distance="50"/>
+		</challenge>
+		
+		<challenge name="gatherResourcesGyroCopter5" title_key="challengeGatherResourcesGyroCopter5" icon="ui_game_symbol_challenge_harvesting_wrench_cars" group="Gyrocopter"
+		           prerequisite_hint="challengeGatherResourcesGyroCopterHint1" hint="challengeGatherResourcesGyroCopterHint5"
+		           short_description_key="challengeGatherResourcesGyroCopter5Short" description_key="challengeGatherResourcesGyroCopter5Desc">
+			<objective type="Gather" item="carBattery" count="1" block_tag="challenge_battery" track_distance="50"/>
+		</challenge>
+
+		<challenge name="craftGyroCopter" title_key="challengeCraftGyroCopter" icon="ui_game_symbol_gyrocopter" group="Gyrocopter"
+		           hint="challengeCraftGyroCopterHint1"
+		           short_description_key="challengeCraftGyroCopterShort" description_key="challengeCraftGyroCopterDesc">
+			<objective type="Craft" item="vehicleGyrocopterPlaceable"/>
+		</challenge>
+
+		<challenge name="groupCompleteChallenge" title_key="challengeGroupComplete" icon="ui_game_symbol_challenge_basics_redeem_rewards" group="Escape"
+		           prerequisite_hint="challengeGroupCompleteHint1" hint="challengeGroupCompleteHint2"
+		           short_description_key="challengeGroupCompleteShort" description_key="challengeGroupCompleteDesc" redeem_always="false">
+			<objective type="ChallengeComplete" challenge="Basics" is_redeemed="true" is_group="true"/>
+		</challenge>
+	</set>
+</Hells_Janitor>

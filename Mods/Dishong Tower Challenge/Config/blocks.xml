@@ -1,0 +1,347 @@
+﻿<configs>
+	<insertafter xpath="/blocks/block[@name='concreteNoUpgradeMaster']">
+		<block name="concreteRadiation">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="concreteNoUpgradeGroupDesc"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Material" value="Mbedrock"/>
+			<property name="Texture" value="8"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="BuffsWhenWalkedOn" value="buffInternalBleedingAC"/>
+			<requirement name="EntityTagCompare" tags="player"/>
+			<property class="RepairItems">
+				<property name="resourceConcreteMix" value="8"/>
+			</property>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+			<property name="SortOrder1" value="M070"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="FilterTags" value="MC_building"/>
+		</block>
+		<block name="concreteindestructible">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="concreteNoUpgradeGroupDesc"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Material" value="Mbedrock"/>
+			<property name="Texture" value="8"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property class="RepairItems">
+				<property name="resourceConcreteMix" value="8"/>
+			</property>
+			<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+			<property name="SortOrder1" value="M070"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="FilterTags" value="MC_building"/>
+		</block>
+		<block name="concreteNoStability">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="concreteNoUpgradeGroupDesc"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Material" value="MconcreteNoGlue"/>
+			<property name="Texture" value="8"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property class="RepairItems">
+				<property name="resourceConcreteMix" value="8"/>
+			</property>
+			<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+			<property name="SortOrder1" value="M070"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="FilterTags" value="MC_building"/>
+		</block>
+		<block name="concreteShapesNoStabilty" shapes="All">
+			<property name="DescriptionKey" value="concreteGroupDesc"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Material" value="Mconcrete_shapesNoGlue"/>
+			<property name="Shape" value="New"/>
+			<property name="Texture" value="8"/>
+			<property name="UiBackgroundTexture" value="8"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property class="RepairItems">
+				<property name="resourceConcreteMix" value="8"/>
+			</property>
+			<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+			<property name="UpgradeSound" value="place_block_concrete"/>
+			<property name="SortOrder1" value="S030"/>
+			<!-- SortOrder2 is assigned in code to keep all of the shapes in the same order for each material -->
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="FilterTags" value="MC_Shapes"/>
+		</block>
+		<block name="destroyedstoneAC">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="DisplayType" value="blockTerrainFertile"/>
+			<property name="Map.Color" value="152,149,63"/>
+			<property name="Material" value="Mbedrock"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="Texture" value="438"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="BuffsWhenWalkedOn" value="buffInternalBleedingAC"/>
+			<requirement name="EntityTagCompare" tags="player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Weight" value="90"/>
+			<property name="NoScrapping" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceCobblestones" value="6"/>
+			</property>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Harvest" name="resourceCrushedSand" count="4" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceRockSmall" count="12" tag="oreWoodHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0700"/>
+			<property name="FilterTags" value="MC_outdoor,SC_terrain,MC_building,SC_destruction"/>
+		</block>
+		<block name="terrWastelandGround">
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="DisplayType" value="blockTerrainFertile"/>
+			<property name="Map.Color" value="152,149,63"/>
+			<property name="Material" value="Mrubble"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="Texture" value="438"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="BuffsWhenWalkedOn" value="buffBiomeRadiation"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Weight" value="90"/>
+			<property name="NoScrapping" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceCobblestones" value="6"/>
+			</property>
+			<drop event="Harvest" name="resourceCrushedSand" count="4" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceRockSmall" count="12" tag="oreWoodHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0700"/>
+			<property name="FilterTags" value="MC_outdoor,SC_terrain,MC_building,SC_destruction"/>
+		</block>
+		<block name="terrACForestGround">
+			<property name="TerrainIndex" value="2"/>
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+			<property name="DisplayType" value="blockTerrainFertile"/>
+			<property name="Map.Color" value="35,80,45"/>
+			<property name="Material" value="MforestGround"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="Texture" value="195,570,570,570,570,570"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="BuffsWhenWalkedOn" value="buffBiomeRadiation"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="LPHardnessScale" value="2"/>
+			<property name="NoScrapping" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceClayLump" value="14"/>
+			</property>
+			<drop event="Harvest" name="resourceClayLump" count="22" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrForestGround" count="1" prob="0.25" stick_chance="1"/>
+			<drop event="Fall" name="resourceClayLump" count="44" prob="0.187" stick_chance="0"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0350"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
+		</block>
+		<block name="terrACBurntForestGround">
+			<property name="TerrainIndex" value="2"/>
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+			<property name="DisplayType" value="blockTerrainFertile"/>
+			<property name="Map.Color" value="35,80,45"/>
+			<property name="Material" value="MforestGround"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="Texture" value="288,570,570,570,570,570"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="BuffsWhenWalkedOn" value="buffBiomeRadiation"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="LPHardnessScale" value="2"/>
+			<property name="NoScrapping" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceClayLump" value="14"/>
+			</property>
+			<drop event="Harvest" name="resourceClayLump" count="22" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrBurntForestGround" count="1" prob="0.25" stick_chance="1"/>
+			<drop event="Fall" name="resourceClayLump" count="44" prob="0.187" stick_chance="0"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0350"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
+		</block>
+		<block name="terrACDesertGround">
+			<property name="TerrainIndex" value="7"/>
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+			<property name="DisplayType" value="blockTerrainFertile"/>
+			<property name="Map.Color" value="255,221,153"/>
+			<property name="Material" value="MDesertGround"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="Texture" value="185,184,184,184,184,184"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="BuffsWhenWalkedOn" value="buffBiomeRadiation"/>
+			<property name="SellableToTrader" value="false"/>
+			<property class="RepairItems">
+				<property name="resourceCrushedSand" value="7"/>
+				<property name="resourceClayLump" value="7"/>
+			</property>
+			<drop event="Harvest" name="resourceCrushedSand" count="9" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceClayLump" count="9" tag="oreWoodHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="resourceCrushedSand" count="11" prob="0.5" stick_chance="0"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0450"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
+		</block>
+		<block name="terrACSnow">
+			<property name="TerrainIndex" value="0"/>
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+			<property name="DisplayType" value="blockTerrainFertile"/>
+			<property name="Map.Color" value="230,230,255"/>
+			<property name="Material" value="Msnow"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="Texture" value="6,569,569,569,569,569"/><!-- 569: stone texture 1 with dirt sound -->
+			<property name="ImposterExclude" value="true"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="BuffsWhenWalkedOn" value="buffBiomeRadiation"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="NoScrapping" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceSnowBall" value="10"/>
+			</property>
+			<drop event="Harvest" name="resourceSnowBall" count="11" tag="oreWoodHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrSnow" count="1" prob="0.25" stick_chance="1"/>
+			<drop event="Fall" name="resourceSnowBall" count="22" prob="0.187" stick_chance="0"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0600"/>
+			<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
+		</block>		
+		<block name="terrTraderTopSoil">
+			<property name="Extends" value="terrDirt" param1="DescriptionKey"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="terrForestGround"/>
+			<property name="Texture" value="195"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0650"/>
+		</block>
+	</insertafter>
+	
+	<remove xpath="//block[@name='pictureRobertDishongPlaque']//property[1]"/>
+	
+	<insertafter xpath="/blocks/block[@name]/property[1]">
+	<property name="CreativeMode" value="None"/>
+	</insertafter>	
+	<set xpath="/blocks/block[@name]/property[@name='CreativeMode']/@value">None</set>
+	
+	<set xpath="//block[@name='terrDirt']//drop[1]/@count">10</set>
+	<set xpath="//block[@name='glassBulletproofMaster']/property[@name='LightOpacity']/@value">0</set>
+	<set xpath="//block[@name='glassBusinessBlock']/property[@name='LightOpacity']/@value">0</set>
+	<remove xpath="//block[@name='cntPillCaseClosed']/drop[@event='Destroy']"/>
+	<insertafter xpath="//block[@name='cntPillCaseEmpty']//drop[1]">
+		<drop event="Destroy" name="resourceAcid" prob=".5" count="1" tag="WasteTreasuresAcidHarvest"/>
+	</insertafter>
+	<append xpath="/blocks/block[starts-with(@name, 'spotlight')]">
+		<drop event="Harvest" name="resourceHeadlight" count="1" prob="1" tag="salvageHarvest"/>
+	</append>
+	<insertafter xpath="//block[@name='cntCollapsedCementMixer']//drop[5]">
+		<drop event="Harvest" name="ammoGasCan" count="50,500" tag="salvageHarvest"/>
+		<drop event="Destroy" name="smallEngine" count="1" prob="1" tag="salvageHarvest"/>
+	</insertafter>
+	<insertafter xpath="//block[@name='tableSaw']//property[@name='WorkstationIcon']">
+		<drop event="Destroy" name="carBattery" count="1" tag="salvageHarvest"/>
+	</insertafter>
+	<append xpath="/blocks/block[@name='workLightPOI']">
+		<drop event="Destroy" name="resourceHeadlight" count="1" prob="1" tag="salvageHarvest"/>
+		<drop event="Destroy" name="carBattery" count="1" prob="0.10" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeMaster']">
+		<drop event="Harvest" name="resourceYuccaFibers" count="30" tag="oreWoodHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlant02']">
+		<!-- Potted Plant -->
+		<drop event="Harvest" name="resourceYuccaFibers" count="30" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="resourceClayLump" count="3" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="treePlantedOak1m" count="1" prob="0.1" tag="allHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='terrDestroyedStone']">
+		<!-- Destroyed Stone -->
+		<drop event="Harvest" name="resourceClayLump" count="8" tag="oreWoodHarvest"/>
+	</append>
+	<remove xpath="//block[@name='spotlightDownLeft_POI']//drop[@name='resourceHeadlight']"/>
+	<append xpath="//block[starts-with(@name,'projector')]">
+		<drop event="Destroy" name="resourceHeadlight" count="1" prob="1" tag="salvageHarvest"/>
+	</append>
+	
+	<append xpath="//block[@name='projectorCeiling']">
+	<property name="Tags" value="challenge_headlight"/>
+	</append>
+	
+	<append xpath="//block[@name='projectorTableTop']">
+	<property name="Tags" value="challenge_headlight"/>
+	</append>
+	
+	<append xpath="//block[@name='workLightPOI']">
+	<property name="Tags" value="challenge_headlight"/>
+	</append>
+	
+	<append xpath="//block[@name='bunkBedMade']">
+	<property name="Tags" value="challenge_springs"/>
+	</append>
+	
+	<append xpath="//block[@name='bed02']">
+	<property name="Tags" value="challenge_springs"/>
+	</append>
+	
+	<append xpath="//block[@name='commercialBlindsTop']">
+	<property name="Tags" value="challenge_cloth"/>
+	</append>
+	
+	<append xpath="//block[@name='screenCurtainDividerWhite']">
+	<property name="Tags" value="challenge_cloth"/>
+	</append>
+	
+	<append xpath="//block[contains (@name,'awning') or (contains(@name,'curtainDrapes'))]">
+	<property name="Tags" value="challenge_cloth"/>
+	</append>
+	
+	<append xpath="//block[@name='tableSaw']">
+	<property name="Tags" value="challenge_battery"/>
+	</append>
+	
+	<set xpath="//block[@name='officeChair01']//property[@name='Tags']/@value">challenge_mech_parts,challenge_leather</set>
+	<set xpath="//block[@name='cntCollapsedCementMixer']//property[@name='Tags']/@value">challenge_mech_parts,challenge_engine</set>
+	
+</configs>

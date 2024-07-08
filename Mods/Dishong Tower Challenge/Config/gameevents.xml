@@ -1,0 +1,49 @@
+<Hells_Janitor>
+
+	<set xpath="//action_sequence[@name='game_first_spawn']">
+		<property name="allow_user_trigger" value="false"/>
+		<property name="action_type" value="Game"/>
+		
+		<action class="Delay">
+			<property name="time" value="5"/>
+		</action>
+		
+		<action class="AddQuest">
+			<property name="phase" value="1"/>
+			<property name="quest" value="quest_DishongTowerChallenge"/>
+		</action>
+		
+		<action class="SetItemSlots">
+			<property name="items_location" value="Toolbelt" />
+			<property name="items" value="meleeToolRepairT0StoneAxe,drinkJarBoiledWater,meleeWpnBladeT0BoneKnife,foodCanChili,medicalFirstAidBandage,meleeToolTorch" />
+			<property name="item_counts" value="6,2,1-1,2,2,1" />
+			<property name="slot_numbers" value="0,1,2,3,4,5" />
+		</action>
+	</set>
+	
+	<append xpath="//action_sequence[@name='challenge_reward_500']">
+		<action class="AddSkillPoints">
+			<property name="skill_points" value="4" />
+		</action>
+	</append>
+	
+	<remove xpath="//action_sequence[@name='challenge_group_reward_basics']//action[@class='AddSkillPoints']"/>
+	
+	<append xpath="/gameevents">
+		<action_sequence name="DTC_step_one">
+			<property name="action_type" value="Game"/>
+			
+			<action class="SetItemSlots">
+				<property name="items_location" value="Equipment" />
+				<property name="items" value="armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots" />
+				<property name="item_counts" value="1-1,1-1,1-1,1-1" />
+			</action>
+			
+			<action class="AddItems">
+				<property name="added_items" value="modArmorIntellect,meleeToolSalvageT1Wrench,modArmorHelmetLight,bookWasteTreasuresAcid"/>
+				<property name="added_item_counts" value="1,1-1,1,1"/>
+			</action>
+		</action_sequence>
+	</append>
+
+</Hells_Janitor>
