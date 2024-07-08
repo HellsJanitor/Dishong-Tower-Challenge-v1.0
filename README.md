@@ -3,7 +3,7 @@ All files and folders needed to run the mod.
 
 **Please report any bugs/issues on the official forum thread:** https://community.7daystodie.com/topic/34098-the-dishong-tower-challenge-updated-for-alpha-21/
 
-#CHANGELOG v 4.0.0
+## CHANGELOG v 4.0.0
 
 Essentially the same as the Alpha 21 version, with some notable changes:
 
@@ -50,7 +50,7 @@ Challenge Rules:
 
 7: You must survive until you are able to build a gyrocopter and fly off the roof.
 
-###Contributors:
+### Contributors:
 
 DishongGameOptions 			-Author: w00kien00kie
 
@@ -68,9 +68,9 @@ WMMLootRespawnTweak			-Author: w00kien00kie
 
 
 
-###Credit to Glock9 for the very first idea of the challenge, which inspired the creation of the mod.
+### Credit to Glock9 for the very first idea of the challenge, which inspired the creation of the mod.
 
-##Installation:
+## Installation:
 
 The mod comes already pre-bundled in a Mods folder - just extract that Mods folder into your base game directory, usually Steam\steampps\common\7DaystoDie, then run the game.
 This mod is updated for version 1.0, currently Experimental Release (b313), but *may* need to be updated as the base game release build is updated.
