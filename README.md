@@ -3,7 +3,7 @@ All files and folders needed to run the mod.
 
 **Please report any bugs/issues on the official forum thread:** https://community.7daystodie.com/topic/34098-the-dishong-tower-challenge-updated-for-alpha-21/
 
-CHANGELOG v 4.0.0
+#CHANGELOG v 4.0.0
 
 Essentially the same as the Alpha 21 version, with some notable changes:
 
