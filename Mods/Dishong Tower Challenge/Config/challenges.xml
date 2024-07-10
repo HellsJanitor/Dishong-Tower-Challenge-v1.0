@@ -33,7 +33,7 @@
 
 		<challenge name="gatherResourcesGyroCopterAccessories1" title_key="challengegatherResourcesGyroCopterAccessories1" icon="ui_game_symbol_challenge_harvesting_electrical_parts" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint1"
 		           short_description_key="challengegatherResourcesGyroCopterAccessories1Short" description_key="challengegatherResourcesGyroCopterAccessories1Desc">
-			<objective type="Gather" item="resourceElectricParts" count="53" block_tag="challenge_elec_parts" track_distance="15"/>	
+			<objective type="Gather" item="resourceElectricParts" count="79" block_tag="challenge_elec_parts" track_distance="15"/>	
 		</challenge>
 		
 		<challenge name="gatherResourcesGyroCopterAccessories2" title_key="challengegatherResourcesGyroCopterAccessories2" icon="ui_game_symbol_misc_crafting" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint2"
@@ -43,35 +43,35 @@
 		
 		<challenge name="gatherResourcesGyroCopterAccessories3" title_key="challengegatherResourcesGyroCopterAccessories3" icon="ui_game_symbol_challenge_harvesting_pipes" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint3"
 		           short_description_key="challengegatherResourcesGyroCopterAccessories3Short" description_key="challengegatherResourcesGyroCopterAccessories3Desc">
-			<objective type="Gather" item="resourceMetalPipe" count="50" block_tag="challenge_sinks" track_distance="15"/>
+			<objective type="Gather" item="resourceMetalPipe" count="75" block_tag="challenge_sinks" track_distance="15"/>
 		</challenge>
 		
 		<challenge name="gatherResourcesGyroCopterAccessories4" title_key="challengegatherResourcesGyroCopterAccessories4" icon="ui_game_symbol_challenge_harvesting_mechanical_parts" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint4"
 		           short_description_key="challengegatherResourcesGyroCopterAccessories4Short" description_key="challengegatherResourcesGyroCopterAccessories4Desc">
-			<objective type="Gather" item="resourceMechanicalParts" count="50" block_tag="challenge_mech_parts" track_distance="15"/>
+			<objective type="Gather" item="resourceMechanicalParts" count="75" block_tag="challenge_mech_parts" track_distance="15"/>
 		</challenge>
 		
 		<challenge name="gatherResourcesGyroCopterAccessories5" title_key="challengegatherResourcesGyroCopterAccessories5" icon="ui_game_symbol_misc_crafting" group="Accessories" hint="gatherResourcesGyroCopterAccessories1Hint5"
 		           short_description_key="challengegatherResourcesGyroCopterAccessories5Short" description_key="challengegatherResourcesGyroCopterAccessories5Desc">
-			<objective type="Gather" item="resourceSpring" count="4" block_tag="challenge_springs" track_distance="50"/>
+			<objective type="Gather" item="resourceSpring" count="6" block_tag="challenge_springs" track_distance="50"/>
 		</challenge>		
 
 		<challenge name="gatherResourcesGyroCopterChassis1" title_key="challengeGatherResourcesGyroCopterChassis1" icon="ui_game_symbol_challenge_harvesting_wrench_vending_machine" group="Accessories"
 		           prerequisite_hint="challengeGatherResourcesGyroCopterChassisHint1" hint="challengeGatherResourcesGyroCopterChassisHint1"
 		           short_description_key="challengeGatherResourcesGyroCopterChassis1Short" description_key="challengeGatherResourcesGyroCopterChassis1Desc">
-			<objective type="Gather" item="resourceForgedSteel" count="125" block_tag="challenge_steel" override_tracker_index="challenge_steel" track_distance="50"/>
+			<objective type="Gather" item="resourceForgedSteel" count="187" block_tag="challenge_steel" override_tracker_index="challenge_steel" track_distance="50"/>
 		</challenge>
 		
 		<challenge name="gatherResourcesGyroCopterChassis3" title_key="challengeGatherResourcesGyroCopterChassis3" icon="ui_game_symbol_misc_crafting" group="Accessories"
 		           prerequisite_hint="challengeGatherResourcesGyroCopterChassisHint1" hint="challengeGatherResourcesGyroCopterChassisHint3"
 		           short_description_key="challengeGatherResourcesGyroCopterChassis3Short" description_key="challengeGatherResourcesGyroCopterChassis3Desc">
-			<objective type="Gather" item="resourceDuctTape" count="40" block_tag="challenge_cloth" track_distance="15"/>
+			<objective type="Gather" item="resourceDuctTape" count="37" block_tag="challenge_cloth" track_distance="15"/>
 		</challenge>
 		
 		<challenge name="gatherResourcesGyroCopterChassis4" title_key="challengeGatherResourcesGyroCopterChassis4" icon="ui_game_symbol_challenge_harvesting_leather" group="Accessories"
 		           prerequisite_hint="challengeGatherResourcesGyroCopterChassisHint1" hint="challengeGatherResourcesGyroCopterChassisHint4"
 		           short_description_key="challengeGatherResourcesGyroCopterChassis4Short" description_key="challengeGatherResourcesGyroCopterChassis4Desc">
-			<objective type="Gather" item="resourceLeather" count="25" block_tag="challenge_leather" track_distance="15"/>
+			<objective type="Gather" item="resourceLeather" count="60" block_tag="challenge_leather" track_distance="15"/>
 		</challenge>
 		
 		<challenge name="craftGyroCopterAccessories" title_key="challengeGyroCopterAccessories" icon="ui_game_symbol_assemble" group="Accessories"

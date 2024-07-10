@@ -2,13 +2,13 @@
 <Servers>
     <ServerGroup Name="Dishong Tower" Logo="https://cdn.discordapp.com/attachments/1155647724478275614/1159550526422253678/Dishong_splash.png" Description="Can you escape the Dishong Tower?">
         <Server Name="Dishong Tower" Logo="https://cdn.discordapp.com/attachments/1155647724478275614/1159550526422253678/Dishong_splash.png">
-            <Description>CHANGELOG V 4.0.0:
+            <Description>CHANGELOG V 1.0.5:
 Essentially the same as the Alpha 21 version, with some notable changes:
 
 The challenge system has been reworked to reflect the specific challenges for the Dishong Tower
 
 The gear awarded for completing the first row of challenges has been updated. You now receive a full set of primitive armour (already on your character), plus an intellect mod.
-The wrench, helmet light mod and Wasteland Treasures book are still awarded as they were in previous versions.			
+The wrench, helmet light mod and Wasteland Treasures book are still awarded as they were in previous versions.	
 									
 									
 THE DISHONG TOWER CHALLENGE:
@@ -19,7 +19,7 @@ You have one life, one mission, one means of escape.
 This challenge places you, a lone survivor, in the eponymous Dishong Tower, a towering edifice of death incarnate. Your only means of escape is to gather everything you need to be able to craft a gyrocopter and make your escape from the rooftop to the nearby settlement. You have one life. Make it count.
 
  
-A mini overhaul mod, re-imagined for release 1.0. One tower, one trader, one means of escape.
+A mini overhaul mod, re-imagined for Release 1.0. One tower, one trader, one means of escape.
 
  
 
@@ -27,9 +27,7 @@ Five custom worlds, each a different biome, so you can choose your starting "dif
 
 Custom-edited Dishong Tower POI, giving you everything you need to be able to complete your quest.
 
-Custom questline, guiding you on your way.
-
-Custom HUD.
+Custom questline, guiding you on your way, and a Custom HUD.
 					
 CHALLENGE RULES: 
 
@@ -54,8 +52,12 @@ DishongPickupWorkstations 	-Author: w00kien00kie
 Cleaner HUD					-Author: Frantic_Dan
 KHA21-HPBars				-Author: Khaine
 Khelldon Custom Menu 		-Author: Khelldon
+WMMAvoidBloodmoon 			-Author: w00kien00kie
 WMMLootRespawnTweak			-Author: w00kien00kie
-
+WMMPersistGameOptions		-Author: w00kien00kie
+WMMStaminaDehydrationFix	-Author: w00kien00kie
+WMMStashBackpack			-Author: w00kien00kie
+WMMVideoOptions				-Author: w00kien00kie
 
 Credit to Glock9 for the very first idea of the challenge, which inspired the creation of the mod.
 						
@@ -68,7 +70,7 @@ For full details, check the forum post here: https://community.7daystodie.com/to
             <Version>Latest</Version>
             <DownloadMode>Clone</DownloadMode>
             <Downloads>
-                <Download>https://github.com/HellsJanitor/Dishong-Tower-Challenge-for-v1.0</Download>
+                <Download>https://github.com/HellsJanitor/Dishong-Tower-Challenge</Download>
             </Downloads>
         </Server>
     </ServerGroup>

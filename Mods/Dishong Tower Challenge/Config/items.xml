@@ -4,6 +4,8 @@
 	</insertafter>
 	<set xpath="/items/item//property[@name='CreativeMode']/@value">None</set>
 	
+	<set xpath="//item[@name='armorPrimitiveHelmet']/effect_group[@name='PrimitiveHelmet']//passive_effect[@name='ModSlots']/@value">2,2,2,2,2,2</set>
+	
 	<insertAfter xpath="/items/item[@name='ammoBundleMaster']">
 		<item name="Backpack">
 			<property name="CreativeMode" value="None"/>
@@ -35,8 +37,6 @@
 	<insertbefore xpath="//item[@name='resourceAcid']//property[1]">
 		<property name="UnlockedBy" value="craftingVehicles"/>
 	</insertbefore>	
-	
-	<!-- <property name="DescriptionKey" value="armorLeatherGroupDesc"/> -->
 	
 	<set xpath="//item[@name='resourceWaterFilter']//property[@name='Stacknumber']/@value">1</set>
 	<insertafter xpath="//item[@name='drugAntibiotics']">

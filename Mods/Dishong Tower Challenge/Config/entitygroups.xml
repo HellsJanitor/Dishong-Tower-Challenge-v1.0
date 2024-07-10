@@ -1,26 +1,11 @@
 <configs>
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="remove" >animalZombieBear, 20</csv>
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
-		none, 20
-	</csv>
+	<csv op="remove" xpath="//entitygroup[contains(text(), 'animalZombieBear') and not (@name='animalZombieBear') and not (@name='ZombieBearsGroup')]/text()" delim="\n">*animalZombieBear*</csv>
+	<csv op="remove" xpath="//entitygroup[contains(text(), 'animalDireWolf') and not (@name='animalDireWolf')]/text()" delim="\n">*animalDireWolf*</csv>
+	<csv op="remove" xpath="//entitygroup[contains(text(), 'animalBear') and not (@name='animalBear') and not (@name='animalBearSmall') and not (@name='BearGroup') and not (@name='BearSmallGroup')]/text()" delim="\n">*animalBear*</csv>
 		
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="remove" >animalDireWolf, 5</csv>
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
-		animalWolf, 5
-	</csv>
-
-	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="remove" >animalDireWolf, .01</csv>
-	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
-		animalWolf, .01
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown']/text()" delim="\n" op="remove" >animalDireWolf, .1</csv>
-	<csv xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown']/text()" delim="\n" op="add" >
-		animalWolf, .1
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="remove" >animalBear, 5</csv>
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
-		none, 5
-	</csv>	
+	<set xpath="//entitygroup[@name='EnemyAnimalsWastelandNight']">
+		animalWolf, 20
+		animalZombieDog, 20
+		none, 60
+	</set>	
 </configs>

@@ -14,39 +14,39 @@ Trees give plant fibres; potted plants can be harvested for plant fibres, clay s
 
 Destroyed stone terrain blocks when mined give 8 clay in addition to stone, and can be used to plant trees
 
-Big Momma, Tourist, and Moe zombies drop bones and rotting flesh
+Big Momma, Tourist, and Moe zombies can be harvested for bones and rotting flesh
 
-Hazmat zombies drop nitrate and bones
+Hazmat zombie can be harvested for nitrate and bones
 
-Nurse zombies drop bones, nitrate, and a 10% chance of antibiotics & 10% chance of medical skill magazines
+Nurse zombie can be harvested for bones, nitrate, and a 10% chance of antibiotics & 10% chance of medical skill magazines
 
-Lab Worker zombie drops bones, nitrate, 10% chance of medical skill magazine and a 10% chance of a beaker
+Lab Worker zombie can harvested for bones, nitrate, 10% chance of medical skill magazine and a 10% chance of a beaker
 
-Lumberjack zombies drop snowballs
+Lumberjack zombie can be harvested for snowballs
 
-Biker zombies drop oil & vehicle skill magazines
+Biker zombie can be harvested for oil & vehicle skill magazines
 
-Utility Worker zombies drop a 10% chance of workstation skill magazines
+Utility Worker zombie can be harvested for a 10% chance of workstation skill magazines
 
-Fat Cop zombies have a 10% chance to drop handgun and club magazines, and 10% chance of acid
+Fat Cop zombie can be harvested for a 10% chance of handgun and club magazines, and 10% chance of acid
 
-Janitor zombies have a 10% chance to drop Harvesting, Repair, Salvage, Electrician & Sledgehammer skill magazines
+Janitor zombie can be harvested for a 10% chance of Harvesting, Repair, Salvage, Electrician & Sledgehammer skill magazines
 
-Thug zombie have a 10% chance to drop Knuckles, Blades & Shotgun skill magazines
+Thug zombie can be harvested for a 10% chance of Knuckles, Blades & Shotgun skill magazines
 
-Soldier zombie have a 10% chance to drop Rifles, Machine guns, Armour & Explosives skill magazines
+Soldier zombie can be harvested for a 10% chance of Rifles, Machine guns, Armour & Explosives skill magazines
 
-Arlene, Darlene and Marlene zombies have a 10% chance to drop Food skill magazines
+Arlene, Darlene and Marlene zombies can be harvested for a 10% chance of Food skill magazines
 
-Boe, Joe & Yo zombies have a 10% chance to drop Spears & Bows skill magazines
+Boe, Joe & Yo zombies can be harvested for a 10% chance of Spears & Bows skill magazines
 
-Tom Clark & Steve have a 10% chance to drop Robotics & Traps skill magazines
+Tom Clark & Steve can be harvested for a 10% chance of Robotics & Traps skill magazines
 
-Party Girl has a 10% chance to drop old cash
+Party Girl can be harvested for a 10% chance of old cash
 
-Businessman zombie has a 10% chance to drop Dukes
+Businessman zombie can be harvested for 10% chance of Dukes
 
-Wight zombie has a 10% chance to drop a Forgettin' Elixir and/or a magazine bundle
+Wight zombie can be harvested for a 10% chance of a Forgettin' Elixir and/or a magazine bundle
 
 Pumpkin bread food and health values have been increased
 
@@ -66,7 +66,7 @@ Reduced number of books required for the gyrocopter, chem station and crucible
 
 Old cash can be converted into Dukes
 
-All arrows and bolts can be turned back into feathers
+Stone arrows can be turned back into feathers
 
 Acid can be crafted from car batteries, or crafted from resources in chem station
 
@@ -78,8 +78,10 @@ Honey and eggs added to vending machines, vending machine types have been random
 
 Included JUST ONE guaranteed water filter spawn
 
+Included lockable slots for backpack (press 'X' to lock individual slots) (Credit WookieNookie)
+
 Sleeper respawns are configurable from a main menu option. You can now set zombies to respawn in the Tower every one, three, five, seven, nine, eleven, thirteen or fifteen days (Credit WookieNookie)
 
-New "difficulty" setting - mod now comes with 5 maps, one for each biome. Forest is easiest, followed by Burnt Forest, Desert, Snow and lastly Wasteland, the hardest.
+New "difficulty" setting - mod now comes with 4 maps, one for each biome. Forest is easiest, followed by Desert, Snow and lastly Wasteland, the hardest.
 
 Thanks to WookieNookie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII and Pitchsilent for the original base mod and concept.

@@ -291,8 +291,10 @@ resourcePaperDesc,"'Chicken' Fried 'Rice'\n'Fresh' 'Egg' Rolls\nGeneral MD's Chi
 tutorialTipQuest01,"Welcome to the Dishong Tower Challenge.\n\nFight your way up the top of the tower, looting and crafting everything you need to craft a gyrocopter to make your escape from the top. \nFailure is not an option. \n\nRULES:\n1: You [cd5c5c]must[-] enter the Dishong Tower [cd5c5c]immediately[-] (being on the front porch counts as being in) and [cd5c5c]cannot leave[-] thereafter.\n2: The rubble on the ground around the tower is [cd5c5c]NOT[-] part of the tower, and as such may [cd5c5c]NOT[-] be used to support any structures, or to grow any crops, unless you can do this [cd5c5c]WITHOUT[-] touching it. \n3: You may build bridges off the side of the building to reach things, but those bridges [cd5c5c]must support themselves and cannot touch the ground.[-]\n4: You may [cd5c5c]not[-] mine or dig under the building.\n5: All default game settings, unless you want to turn up the size of the hordes. It's recommended to have loot respawn set to 7 days.\n6: If you die, the [cd5c5c]GAME IS OVER[-].\n7: You must survive until you are able to build a gyrocopter and fly to the safety of the trader compound.\n\nYou have [cd5c5c]ONE[-] life. Make it count."
 tutorialTipQuest01_title,Started The Dishong Tower Challenge
 
-quest_whiteRiverCitizen1_hint1,[FFB400]Do you think you have what it takes?[-]
-quest_whiteRiverCitizen1_hint2,[FFB400]Do you have what it takes to complete the Dishong Tower Challenge? Prove it.[-]
+quest_whiteRiverCitizen1_hint1,[FFB400]Escape the Dishong Tower![-]
+quest_whiteRiverCitizen1_hint2,[FFB400]Fly! Fly, my pretty!! Trader Jen is your salvation!![-]
+quest_WhiteRiverCitizen1_description,"Good Job Survivor!\n\nNo idea how you did it, but somehow you've pulled it off - impressive!\n\nThere should be a marker on your map - head over to Jen. She'll take care of you.\n\nCongratulations on getting this far!"
+quest_white_river_completion,Quest,Quest Info,,,"Hells sent you, eh? You must be some kind of crazy to take on this challenge, but, you made it!\n\nIf this is your kind of thing, you should check out The Spencer Mansion ... "
 
 challenge_StartingDishongTower,"Do you think you have what it takes?"
 challenge_StartingDishongTower_description,"Do you have what it takes to complete the Dishong Tower Challenge? Prove it."
@@ -322,10 +324,10 @@ quest_DishongTowerChallenge04_offer,"Fly! Fly, my pretty!! Trader Jen is your sa
 quest_DishongTowerChallenge04_description,"Escape the Dishong Tower!"
 quest_DishongTowerChallenge04_subtitle,"Escape the Tower!"
 
-Challenge Completion,"You made it!!"
-Challenge Completion_offer,"Challenge complete!"
-Challenge Completion_description,"Congratulations on escaping the Tower!"
-Challenge Completion_subtitle,"Congratulations!"
+Challenge_Completion,"You made it!!"
+Challenge_Completion_offer,"Challenge complete!"
+Challenge_Completion_description,"Congratulations on escaping the Tower!"
+Challenge_Completion_subtitle,"Congratulations!"
 
 Quest_Completion_tip_title,Completed The Dishong Tower Challenge
 Quest_Completion_tip,"[FFFF00]Congratulations! [-]\n\n[008000]You have successfully completed the Dishong Tower challenge! [-]\n\n[FF0000]Want another challenge? \n\nTry The Spencer Mansion Incident![-]"

@@ -24,9 +24,9 @@
 		</quest>
 
 		<quest id="Completion">
-			<property name="name_key" value="Challenge Completion"/>
-			<property name="subtitle_key" value="Challenge Completion_subtitle"/>
-			<property name="description_key" value="Challenge Completion_description"/>
+			<property name="name_key" value="Challenge_Completion"/>
+			<property name="subtitle_key" value="Challenge_Completion_subtitle"/>
+			<property name="description_key" value="Challenge_Completion_description"/>
 			<property name="icon" value="ui_game_symbol_map_trader"/>
 			<property name="category" value="Congratulations!"/>
 			<property name="difficulty" value="easy"/>

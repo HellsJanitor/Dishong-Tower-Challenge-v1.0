@@ -291,7 +291,7 @@
 			<requirement name="ProgressionLevel" progression_name="craftingElectrician" operation="equals" value="100"/>
 		</passive_effect>
 		
-		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="1,1,1,1,1" tags="TrLoot">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="TrLoot">
 			<requirement name="ProgressionLevel" progression_name="craftingTraps" operation="LT" value="75"/>
 		</passive_effect>
 		
