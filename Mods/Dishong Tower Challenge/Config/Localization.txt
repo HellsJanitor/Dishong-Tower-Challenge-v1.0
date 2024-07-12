@@ -100,6 +100,9 @@ zombieBoeRadiated,Radiated w00kien00kie
 zombieBurnt,Jagz_1
 zombieBurntFeral,Feral Jagz_1
 zombieBurntRadiated,Radiated Jagz_1
+zombieBusinessMan,LobitoGamingTV
+zombieBusinessManFeral,Feral LobitoGamingTV
+zombieBusinessManRadiated,Radiated LobitoGamingTV
 zombieDarlene,Lumun
 zombieDarleneFeral,Feral Lumun
 zombieDarleneRadiated,Radiated Lumun
