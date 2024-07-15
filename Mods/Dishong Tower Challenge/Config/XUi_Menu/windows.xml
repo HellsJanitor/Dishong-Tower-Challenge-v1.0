@@ -2,6 +2,7 @@
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='XPMultiplier']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='DayNightLength']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BlockDamagePlayer']" />
+	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='QuestProgressionDailyLimit']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LootAbundance']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BlockDamageAI']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BlockDamageAIBM']" />
