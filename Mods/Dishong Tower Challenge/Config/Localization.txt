@@ -151,11 +151,15 @@ zombieSoldierRadiated,Raditaed Shadow_Floodlight
 zombieSteve,NotOnly25
 zombieSteveFeral,Feral NotOnly25
 zombieSteveRadiated,Radiated NotOnly25
+zombieTomClark,AnneikaTheJammyBrit
+zombieTomClarkFeral,Feral AnneikaTheJammyBrit
+zombieTomClarkRadiated,Radiated AnneikaTheJammyBrit
 zombieYo,YubiNashi
 zombieYoFeral,Feral YubiNashi
 zombieYoRadiated,Radiated YubiNashi
 zombieWightFeral,Tyrant - Mr.X
 zombieWightRadiated,Radiated Tyrant - Mr.X
+animalZombieDog,AuroraGiggleFairy
 
 loadingTipDishong1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are SOME usuable farmplots in the tower ..."
 loadingTipDishong1_title,Seeds
