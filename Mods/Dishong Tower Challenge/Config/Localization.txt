@@ -154,6 +154,9 @@ zombieSteveRadiated,Radiated NotOnly25
 zombieTomClark,AnneikaTheJammyBrit
 zombieTomClarkFeral,Feral AnneikaTheJammyBrit
 zombieTomClarkRadiated,Radiated AnneikaTheJammyBrit
+zombieUtilityWorker,Cran5000
+zombieUtilityWorkerFeral,Feral Cran5000
+zombieUtilityWorkerRadiated,Radiated Cran5000
 zombieYo,YubiNashi
 zombieYoFeral,Feral YubiNashi
 zombieYoRadiated,Radiated YubiNashi
