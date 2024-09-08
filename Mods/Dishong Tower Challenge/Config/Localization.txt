@@ -148,6 +148,9 @@ zombieSkateboarderRadiated,Radiated sphereII
 zombieSoldier,Shadow_Floodlight
 zombieSoldierFeral,Feral Shadow_Floodlight
 zombieSoldierRadiated,Raditaed Shadow_Floodlight
+zombieSpider,Jynxdginger79
+zombieSpiderFeral,Feral Jynxdginger79
+zombieSpiderRadiated,Radiated Jynxdginger79
 zombieSteve,NotOnly25
 zombieSteveFeral,Feral NotOnly25
 zombieSteveRadiated,Radiated NotOnly25
